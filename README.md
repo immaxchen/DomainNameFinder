@@ -14,3 +14,11 @@ from DomainNameFinder import *
 
 checknames(letters, ['muffin'])
 ```
+
+find available domain names with pattern: (three-letter-word)muffin.net
+
+```python
+from DomainNameFinder import *
+
+checknames(three_letter_words, ['muffin'], tld='.net')
+```
